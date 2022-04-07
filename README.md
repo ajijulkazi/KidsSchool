@@ -1,1 +1,2 @@
 # KidsSchool
+# Its a kidsschool
