@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
-import logo from '../../Images/students.png'
+import logo from '../../Images/students.png';
 
 const Header = () => {
     const activeStyle={
@@ -22,4 +22,4 @@ const Header = () => {
     );
 };
 
-export default Header;<h2>This is header..</h2>
+export default Header;

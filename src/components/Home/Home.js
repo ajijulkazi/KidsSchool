@@ -1,21 +1,31 @@
-import { Button } from 'bootstrap';
 import React from 'react';
-import { Card } from 'react-bootstrap';
-
+import {Button,Card,Row,Col} from 'react-bootstrap'
+import pic1 from '../../Images/pic-1.jpg';
+import {Link} from 'react-router-dom'
 const Home = () => {
+    
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-           </Card>
+            <Row xs={1} md={2} className="g-4">
+  {Array.from({ length: 4 }).map((_, idx) => (
+    <Col>
+      <Card>
+        <Card.Img variant="top" src={pic1}/>
+        <Card.Body>
+          <Card.Title>Services</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+          <Link to='/service'>
+          <Button variant="primary">See All Service</Button>
+          </Link>
+        </Card.Body>
+        
+      </Card>
+    </Col>
+  ))}
+</Row>
         </div>
     );
 };

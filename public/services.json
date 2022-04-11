@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "Arts Lesson",
+      "price": "5000tk/3m",
+      "imgToUrl":"pic-1.jpg",
+      "description": "Students will learn to draw a Peacock by emphasizing one or more of the  how to play an instrument is a long and challenging process that requires the ability  elements of art.They will attempt to fill the space of the art composition by identifying lines and shapes using a variety of media."
+    },
+    {
+      "id": 2,
+      "title": "Language Lesson",
+      "price": "8000tk/4m",
+      "imgToUrl":"pic-2.jpg",
+      "description": "Recognize letter-sound relationships,Identify and generate rhyming words,Use a reading strategy when confronted with an Engage in shared/independent reading of familiar predictable text,Speak effectively with appropriate volume,Participate in class discussions unknown word."
+    },
+    {
+      "id": 3,
+      "title": "Music Lesson",
+      "price": "2500tk/month",
+      "imgToUrl":"pic-2.jpg",
+      "description": "This most important goal for any child’s music lessons is for the child to have fun. Yes, there is a fair amount of hard work that goes into creating music lesson plans for kids, but if the student isn’t enjoying the process, then he or she probably won’t continue to play music for very long. follow them accurately.severance. Not only are kids challenged to maintain a consistent practice schedule, but they will also come across skills that are difficult for them to grasp."
+    },
+    {
+      "id": 4,
+      "title": "Sports Lesson",
+      "price": "3000tk/month",
+      "imgToUrl":"pic-2.jpg",
+      "description": "In this lesson students practice by talking about playing  how to play an instrument is a long  how to play an instrument is a long and challenging process that requires the ability  how to play an instrument is a long and challenging process that requires the ability  and challenging process that requires the ability  different sports using the structure I play / I playStudents play lots of fun sporting activities, sing a song, talk about sports read a funny story"
+    },
+    {
+      "id": 5,
+      "title": "Study Lesson",
+      "price": "4500tk/2m",
+      "imgToUrl":"pic-2.jpg",
+      "description": "Demonstrates ability to sit quietly both alone and in a group setting to listen and participate in an activity.Practices self-control lf-care and maintenance tasks such as brushing teeth, combing hair, getting dressed, etc..Interacts both verbally and non verbally such as through smiles, waving, and other appropriate gestures.Offers encouraging comments to others & shows willingness to volunteer & serve."
+    },
+    {
+      "id": 6,
+      "title": "Experiment Lesson",
+      "price": "3500tk/3m",
+      "imgToUrl":"pic-2.jpg",
+      "description": "Use this lesson plan to introduce  how to play an instrument is a long and challenging process that requires the ability  how to play an instrument is a long and challenging process that requires the ability  students to the concept of true experimental design. Students will watch a video lesson, discuss true experiments and their components, and design a hypothetical true experiment."
+    }
+  ]
