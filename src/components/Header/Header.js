@@ -14,7 +14,7 @@ const Header = () => {
                 <img className='logo' src={logo} alt="" />
 
                 <NavLink activeStyle={activeStyle} to="/home">Home</NavLink>
-                <NavLink activeStyle={activeStyle} to="/service">Services</NavLink>
+                <NavLink activeStyle={activeStyle} to="/teacher">Teacher</NavLink>
                 <NavLink activeStyle={activeStyle} to="/about">About</NavLink>
                 <NavLink activeStyle={activeStyle} to="/contact">Contact</NavLink>
             </nav>

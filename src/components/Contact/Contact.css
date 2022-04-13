@@ -1,0 +1,55 @@
+.map-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+    
+}
+.map-container{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    
+}
+
+
+.User-container{
+    background: #1B0034;
+      background-image: linear-gradient( 35deg, #1B0034 10%, #33265C 100%);
+      background-attachment: fixed;
+      background-size: cover;
+      margin-top: 80px;
+      padding-right: 40px;
+      
+      
+      
+}
+.card-container{
+    margin-top: 20px;
+    
+}
+.p1-container{
+    margin-top: 40px;
+    font-weight: bold;
+}
+.info-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+<>
+    .my-form {
+        color: #305896;
+    }
+    .my-form .btn-default {
+        background-color: #305896;
+        color: #fff;
+        border-radius: 0;
+    }
+    .my-form .btn-default:hover {
+        background-color: #4498C6;
+        color: #fff;
+    }
+    .my-form .form-control {
+        border-radius: 0;
+    }
