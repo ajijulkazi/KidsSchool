@@ -6,12 +6,13 @@ import './Contact.css';
 const Contact = () => {
     return (
         <div>
+            <h1 className='card-container'>Contact Us</h1>
             <Container>
                 <Row > 
                     <div className="map-container">
                       
                       <div >
-                          
+                      
                       <Col className='User-container'>
                     <Container>
                         <Row>
@@ -69,7 +70,7 @@ const Contact = () => {
                           </div>
                       </div>
                       <Col >
-                        <h1 className='card-container'>Contact Us</h1>
+
                         
                         <div className='map-container'>
                         <Map></Map>
