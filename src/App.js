@@ -10,6 +10,7 @@ import Services from './components/Services/Services';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Teachers from './components/Teachers/Teachers';
+import Blog from './components/Blog/Blog';
 
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path='/contact'>
               <Contact></Contact>
+          </Route>
+          <Route path='/blog'>
+            <Blog></Blog>
           </Route>
           <Route exact path='*'>
             <NotFound></NotFound>

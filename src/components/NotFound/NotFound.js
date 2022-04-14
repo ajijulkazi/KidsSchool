@@ -32,7 +32,7 @@ const NotFound = () => {
 		
 		<div className="page-ms">
 			<p className="page-msg"> Oops, the page you're looking for Disappeared </p>
-			<Link to='/home'>
+			<Link to='/blog'>
             <button className="go-back">Go Home</button>
             </Link>
 		</div>

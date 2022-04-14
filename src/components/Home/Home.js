@@ -18,7 +18,7 @@ const Home = () => {
             lead-in to additional content. This content is a little bit longer.
           </Card.Text>
           <Link to='/service'>
-          <Button variant="primary">See All Service</Button>
+          <Button variant="primary">See All Service</Button> <br />
           </Link>
         </Card.Body>
         

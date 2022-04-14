@@ -1,35 +1,55 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-const Footer = ({ children }) => {
-       
-    const activeStyle={
-        fontWeight: "bold",
-        color: "goldenrod"
-      }
-    return (
-        <div className='header'>    
-            <>
-      <div
-        style={{
-          position: "fixed",
-          left: 0,
-          bottom: 0,
-          right: 0,
-          backgroundColor: "green"
-        }}
-      >
-         <nav>
+import React from "react";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBIcon } from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
 
-<NavLink activeStyle={activeStyle} to="/home">Home</NavLink>
-<NavLink activeStyle={activeStyle} to="/teacher">Teacher</NavLink>
-<NavLink activeStyle={activeStyle} to="/about">About</NavLink>
-<NavLink activeStyle={activeStyle} to="/contact">Contact</NavLink>
-</nav>
+const FooterPage = () => {
+  return (
+   
+    <MDBFooter color="blue" className="font-small pt-4 mt-4">
+      <MDBContainer fluid className="text-center text-md-left">
+        <MDBRow>
+          <MDBCol md="6">
+            
+            <h5 className="title">STAY CONNECTED</h5>
+            <p>
+            welcome our KidsSchool.If you wanna know more, please click Icon.
+            </p>
+          </MDBCol>
+          <MDBCol md="6">
+          <section className='mb-4'>
+          <Link to='/home' className="btn btn-outline-light btn-floating m-1"><MDBIcon fab icon='facebook' /></Link>
+          <Link to='/contact' className='btn btn-outline-light  btn-floating m-1' ><MDBIcon fab icon='twitter' /></Link>
+          <Link to='/contact' className='btn btn-outline-light  btn-floating m-1' ><MDBIcon fab icon='google' /></Link>
+          <Link to='/contact' className='btn btn-outline-light  btn-floating m-1' ><MDBIcon fab icon='instagram' /></Link>
+          <Link to='/contact' className='btn btn-outline-light  btn-floating m-1' ><MDBIcon fab icon='linkedin-in' /></Link>
+          <Link to='/contact' className='btn btn-outline-light  btn-floating m-1' ><MDBIcon fab icon='github' /></Link>
+
+        </section>
+            <ul>
+              <li className="list-unstyled">
+                <a href="#!">Link 1</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Link 2</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Link 3</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+      <div className="footer-copyright text-center py-3">
+        <MDBContainer fluid>
+         All &copy; {new Date().getFullYear()} Copyright Reserved.
+        </MDBContainer>
       </div>
-    </>
+    </MDBFooter>
+  );
+}
 
-        </div>
-    );
-};
-
-export default Footer;
+export default FooterPage;

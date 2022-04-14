@@ -9,14 +9,7 @@ const Contact = () => {
             <Container>
                 <Row > 
                     <div className="map-container">
-                      <Col >
-                        <h1 className='card-container'>Contact Us</h1>
-                        
-                        <div className='map-container'>
-                        <Map></Map>
-                        </div>
-                        
-                      </Col>
+                      
                       <div >
                           
                       <Col className='User-container'>
@@ -75,6 +68,14 @@ const Contact = () => {
                           </p>
                           </div>
                       </div>
+                      <Col >
+                        <h1 className='card-container'>Contact Us</h1>
+                        
+                        <div className='map-container'>
+                        <Map></Map>
+                        </div>
+                        
+                      </Col>
                       </div>
                       
                     

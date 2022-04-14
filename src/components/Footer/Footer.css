@@ -21,3 +21,15 @@
     background-color: aliceblue;
     color: rebeccapurple;
 }
+.header footer{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.footer-container{
+    
+    font-size: 10px;
+    background-color: aquamarine;
+}
